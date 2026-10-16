@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Object</title>
+  </head>
+  <body>
+    <script>
+      const product = {
+        name: 'socks',
+        price: 2000
+      };
+      console.log(product);
+      console.log(product.name);
+      console.log(product.price);
+      product.new = 'gay';
+      console.log(product);
+      product.new = true;
+      console.log(product);
+
+
+
+      const product2 = {
+          name: 'shirt',
+          ['size-son']: 'big',
+          rating: {
+            stars: 4.2,
+            count: 93
+          },
+          fun: function function1() {
+          console.log('function inside object');
+        }
+        };
+        console.log(product);
+        console.log(product.name);
+        console.log(product['name']);
+        console.log(product['size-son']);
+        console.log(product.rating);
+        product.fun();
+        console.log(typeof console.log);
+        
+        console.log(JSON.stringify(product));
+    </script>
+  </body>
+</html>

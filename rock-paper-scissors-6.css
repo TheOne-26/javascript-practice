@@ -1,0 +1,30 @@
+body{
+background-color: black;
+color: white;
+font-family: arial;
+}
+.title{
+font-size: 30px;
+font-weight: bold;
+}
+.move-icon{
+height: 60px;
+
+}
+.move-button{
+background-color: transparent;
+border-radius: 65px;
+margin-right: 20px;
+border: 4px solid white;
+width: 130px;
+height: 130px;
+cursor: pointer;
+}
+.button-auto,
+.button-reset {
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
